@@ -11,12 +11,19 @@ The primary goal of this project is to enhance decision-making for MBS investmen
 ## Explanation of Columns
 
 CreditScore: Numeric score representing the creditworthiness of the borrower. No missing values, with 370 unique scores.
+
 FirstPaymentDate: Date of the first payment, stored as an integer (likely a timestamp). There are 66 unique dates.
+
 FirstTimeHomebuyer: Categorical variable indicating whether the borrower is a first-time homebuyer. Contains 3 unique values.
+
 MaturityDate: The date when the loan matures, stored as an integer. There are 96 unique maturity dates.
+
 MSA : Metropolitan Statistical Area, a categorical variable with 392 unique entries.
+
 MIP: Mortgage Insurance Premium, an integer with 37 unique values.
+
 Units: Number of units in the property (e.g., single-family home, multi-family). Contains 5 unique values.
+
 Occupancy: Indicates whether the property is owner-occupied or rented, with 3 unique categories.
 OCLTV: Original Combined Loan-to-Value ratio, an integer with 102 unique values.
 DTI: Debt-to-Income ratio, an integer with 66 unique values.

@@ -25,25 +25,45 @@ MIP: Mortgage Insurance Premium, an integer with 37 unique values.
 Units: Number of units in the property (e.g., single-family home, multi-family). Contains 5 unique values.
 
 Occupancy: Indicates whether the property is owner-occupied or rented, with 3 unique categories.
+
 OCLTV: Original Combined Loan-to-Value ratio, an integer with 102 unique values.
+
 DTI: Debt-to-Income ratio, an integer with 66 unique values.
+
 OrigUPB: Original Unpaid Principal Balance, an integer with 375 unique balances.
+
 LTV: Loan-to-Value ratio, an integer with 97 unique values.
+
 OrigInterestRate: The original interest rate of the loan, stored as a float with 254 unique rates.
+
 Channel: The channel through which the loan was originated (e.g., retail, wholesale), with 4 unique values.
+
 PPM: Prepayment Penalty Mortgage, a categorical variable with 3 unique values.
+
 ProductType: Type of mortgage product, with only 1 unique value (indicating all entries are of the same type).
+
 PropertyState: The state where the property is located, with 53 unique states.
+
 PropertyType: Type of property (e.g., single-family, condo), with 7 unique types.
+
 PostalCode: The postal code of the property, with 1,767 unique codes.
+
 LoanSeqNum: A unique identifier for each loan, with 291,451 unique entries (indicating it is likely a primary key).
+
 LoanPurpose: Purpose of the loan (e.g., purchase, refinance), with 3 unique values.
+
 OrigLoanTerm: The original term of the loan in months, with 61 unique terms.
+
 NumBorrowers: Number of borrowers on the loan, with 3 unique values.
+
 SellerName: The name of the loan seller, with 24,994 missing values and 21 unique names.
+
 ServicerName: The name of the loan servicer, with 20 unique names.
+
 EverDelinquent: Indicates whether the borrower has ever been delinquent on payments, with 2 unique values (likely binary).
+
 MonthsDelinquent: The number of months the loan has been delinquent, with a maximum of 174 months.
+
 MonthsInRepayment: The number of months the loan has been in repayment, with a maximum of 212 months.
 
 ## Features
